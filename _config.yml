@@ -86,7 +86,7 @@ author:
   location         : "St. Louis, MO"
   employer         :
   pubmed           : 
-  googlescholar    :  # "http://yourfullgooglescholarurl.com"
+  googlescholar    :  "https://scholar.google.com/citations?user=BgPTZ4MAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "junwang1997/"
-  orcid            : "http://orcid.org/0000-0003-0481-8697"
+  orcid            : # "http://orcid.org/0000-0003-0481-8697"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
