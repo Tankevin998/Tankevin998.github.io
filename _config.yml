@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jun Wang"
+title                    : "Kaiyuan Tan"
 title_separator          : "-"
-name                     : &name "Jun Wang"
+name                     : &name "Kaiyuan Tan"
 description              : &description "personal description"
-url                      : https://wonggwan.github.io 
+url                      : https://tankevin998.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "wonggwan/wonggwan.github.io"
+repository               : "tankevin998/tankevin998.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Jun Wang 王钧"
+  name             : "Kaiyuan Tan"
   avatar           : "profile.jpg"
-  bio              : "PhD Candidate at Washington University in St. Louis (WUSTL)"
-  location         : "St. Louis, MO"
+  bio              : "PhD Student at Vanderbilt University"
+  location         : "Nashiville, TN"
   employer         :
   pubmed           : 
-  googlescholar    :  "https://scholar.google.com/citations?user=BgPTZ4MAAAAJ&hl=en"
-  email            :  "junw(at)wustl(dot)edu"
+  googlescholar    :  "https://scholar.google.com/citations?user=t4VwC_oAAAAJ&hl=en"
+  email            :  "kaiyuan.t(at)wustl(dot)edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "wonggwan"
+  github           : "tankevin998"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "junwang1997/"
+  linkedin         : # "junwang1997/"
   orcid            : # "http://orcid.org/0000-0003-0481-8697"
   pinterest        :
   soundcloud       :
