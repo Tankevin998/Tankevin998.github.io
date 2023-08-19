@@ -1,6 +1,6 @@
 ---
-title: 'DeepLogic accepted'
-date: 2022-07-19
+title: 'ICCECE accepted'
+date: 2021-01-19
 ---
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **IEEE CDC Accepted:** Our paper *"[Verified Compositions of Neural Network Controllers for Temporal Logic Control Objectives](https://arxiv.org/abs/2209.06130)"* has been accepted to IEEE Conference on Decision and Control (CDC) 2022!
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **ICCECE Accepted:** Our paper *"[Research on Full-Space Spectrum-Sharing Strategy for Massive MIMO Cognitive Radio Systems][(https://ieeexplore.ieee.org/abstract/document/9342040)]"* has been accepted by IEEE International Conference on Consumer Electronics and Computer Engineering 2021!
