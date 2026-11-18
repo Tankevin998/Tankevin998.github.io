@@ -2,330 +2,294 @@
 <html lang="en">
 
 <head>
-    <!-- Metadata for the Webpage -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kaiyuan Tan</title>
+    <meta name="description" content="Kaiyuan (Kevin) Tan, Ph.D. candidate in Computer Science at Vanderbilt University, working on physical AI, generative models, and uncertainty quantification for robotics.">
 
-    <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
 
-    <!-- Bootstrap CSS files-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-    <!-- jQuery UI CSS (optional) -->
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-
-    <!-- Google web fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
-
-    <!-- Font Awesome Web Icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-    <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-
-    <!-- Local styles -->
-    <link rel="stylesheet" href="css/main.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+    <link rel="stylesheet" href="css/site.css">
 </head>
 
 <body>
+<div class="wrapper">
 
-<!-- navbar include -->
-<div id="navbar-include"></div>
+    <!-- Profile sidebar -->
+    <header class="sidebar">
+        <img class="avatar" src="img/Headshot.jpg" alt="Kaiyuan Tan">
+        <h1>Kaiyuan (Kevin) Tan</h1>
+        <div class="position">Ph.D. Candidate in Computer Science</div>
+        <div class="affiliation"><a href="https://www.vanderbilt.edu" target="_blank" rel="noopener">Vanderbilt University</a></div>
+        <div class="email">kaiyuan.tan (at) vanderbilt.edu</div>
 
-<div class="spacer-div-3 hidden-xs hidden-xs"></div>
-
-<!-- Main content    -->
-<div id="main-container" class="container">
-
-    <div class="alert alert-success" role="alert">
-        <p>
-            <i class="fa fa-star fa-fw" aria-hidden="true"></i>
-            <a class="close" data-dismiss="alert" aria-label="close">×</a>
-            <strong>If you're looking for a motivated intern in Robotics/ Machine Learning, I'd love to hear from you. Reach out at <a href="mailto:kaiyuan.tan@vanderbilt.edu">kaiyuan.tan@vanderbilt.edu</a> or via <a href="https://www.linkedin.com/in/kaiyuan-kevin-tan/">linkedin</a></strong>
-            <br>
-        </p>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-4">
-            <img class="center-block img img-responsive" src="img/Headshot.jpg">
-            <p style="text-align: center;font-size: 24px;">Kevin Tan, Computer Science</p>
-
-
-            <table class="table" id="contact-table">
-                <tbody>
-                <tr>
-                    <td style="width:30px"><i class="fas fa-home"></i></td>
-                    <td>
-                        Vanderbilt University<br>
-                        Nashville, TN, USA
-                    </td>
-                </tr>
-                <!--                <tr>-->
-                <!--                    <td><i class="fas fa-phone"></i></td>-->
-                <!--                    <td><a href="tel:(615) 586-7168">(615) 586-7168</a></td>-->
-                <!--                </tr>-->
-                <tr>
-                    <td><i class="fas fa-at"></i></td>
-                    <td><a href="mailto:kaiyuan.tan@vanderbilt.edu">kaiyuan.tan@vanderbilt.edu</a></td>
-                </tr>
-                </tbody>
-            </table>
-
+        <div class="social-icons">
+            <a href="mailto:kaiyuan.tan@vanderbilt.edu" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://scholar.google.com/citations?user=t4VwC_oAAAAJ&hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+            <a href="https://github.com/Tankevin998" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kaiyuan-kevin-tan/" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
         </div>
-        <div class="col-md-8">
 
-            <p>Kaiyuan Tan is a Ph.D. student in the Department of Computer Science at <a href="https://www.vanderbilt.edu" target="_blank">Vanderbilt
-                University</a>, advised by Professor
-                <a href="https://www.tbeckers.com/home" target="_blank">Thomas Beckers</a>. Prior to joining Vanderbilt, he completed his M.S. in Electrical Engineering at 
-                <a href="https://washu.edu" target="_blank">Washington University in St. Louis</a> with thesis in 2023, where he worked with Professor <a href="https://sites.wustl.edu/kantaroslab/" target="_blank">Yiannis Kantaros</a>. 
-                He earned his B.Eng. in Information Engineering from <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-Sen University</a>, China, in 2021. Where he was selected as the member of extraordinary class.
+        <ul class="nav">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#publications">Papers</a></li>
+            <li><a href="vitae.html">CV</a></li>
+        </ul>
+    </header>
 
+    <!-- Main content -->
+    <main class="content">
+
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>
+                Hi! I am a Ph.D. candidate in Computer Science at
+                <a href="https://www.vanderbilt.edu" target="_blank" rel="noopener">Vanderbilt University</a>, advised by
+                Prof. <a href="https://www.tbeckers.com/home" target="_blank" rel="noopener">Thomas Beckers</a>, and I expect
+                to graduate in <strong>December 2027</strong>.
             </p>
-
-            <p>Kaiyuan's research interests span<b> robotics, decision under uncertainty quantification, and machine learning</b>. 
-                His current research focused on advancing physically accurate, learning-based modeling and
-                safe control of
-                physical and robotic systems. His research goal is to advance of safe and meaningful interactions between
-                robot and human, ensuring that robot systems can maintain stability and avoid failures in the context of uncertainty. He has published in top venues such as ICRA, L4DC, and IFAC.
+            <p>
+                I build <strong>generative world models for physical AI</strong>: models that learn how physical systems
+                move from only a handful of sparse observations, respect the underlying physics, and know when they are
+                uncertain. My work combines diffusion models, Gaussian processes, and conformal prediction with
+                port-Hamiltonian structure, and puts the resulting models to work in forecasting, model predictive
+                control, and robot planning.
             </p>
+            <p>
+                Before Vanderbilt, I received my M.S. in Electrical Engineering from
+                <a href="https://washu.edu" target="_blank" rel="noopener">Washington University in St. Louis</a> (2023),
+                where I worked with Prof. <a href="https://sites.wustl.edu/kantaroslab/" target="_blank" rel="noopener">Yiannis Kantaros</a>
+                on the robustness of trajectory predictors and on LLM-based robot planning. I received my B.Eng. in
+                Information Engineering from <a href="https://www.sysu.edu.cn/sysuen/" target="_blank" rel="noopener">Sun Yat-sen University</a>
+                (2021), where I was one of 18 students selected for its inaugural Information Engineering Experimental Program.
+            </p>
+            <p>
+                I am open to <strong>research internships</strong> in physical AI, generative modeling, and robotics.
+                Feel free to reach out by <a href="mailto:kaiyuan.tan@vanderbilt.edu">email</a> or
+                <a href="https://www.linkedin.com/in/kaiyuan-kevin-tan/" target="_blank" rel="noopener">LinkedIn</a>.
+            </p>
+        </section>
 
-            <!-- If you don't want a 'read more' section, simple delete this section between the lines of equal signs -->
-            <!-- ============ READ MORE SECTION BELOW =====================  -->
-            <div id="read-more">
+        <section id="research-interests">
+            <h2>Research Interests</h2>
+            <ul class="interests">
+                <li><strong>Physical AI</strong>: world models of physical dynamics, physics-informed learning, learning-based control</li>
+                <li><strong>Generative Models</strong>: diffusion models for trajectory forecasting from sparse observations</li>
+                <li><strong>Uncertainty Quantification</strong>: conformal prediction, out-of-distribution detection, calibrated forecasts</li>
+                <li><strong>Bayesian Methods</strong>: Gaussian processes, Bayesian learning of port-Hamiltonian systems</li>
+                <li><strong>Robotics</strong>: safe planning and control, LLM task planning, reinforcement learning</li>
+            </ul>
+        </section>
 
-                <p class="push-down-2">Besides research, Kaiyuan loves animals and nature. He owns a working line German Shepherd named Rocket, who is excellent at guarding and protecting his family. Rocket is also a certified service dog, 
-                    and Rocket loves comfort Kaiyuan when he is down.
-                    And Kaiyuan is a texas hold'em poker enthusiast. He is a member of the Barrel Poker Club and play 1/3, 2/5, 5/10 hold'em games. He wins more than 23 big blinds per hour on average.
-                    You can find him playing live stream poker at OG clubhouse live on youtube.
-                    His favorite poker strategy is to play a tight-aggressive style based on game theory, and he is always looking for new ways to improve his game. His favorite poker player is Garrett Adelstein.
-                </p>
+        <section id="news">
+            <h2>News</h2>
+            <ul class="news">
+                <li><span class="date">05/2026</span> Our preprint <a href="https://arxiv.org/abs/2605.16682" target="_blank" rel="noopener">CIPHER</a> on contrastive learning of latent port-Hamiltonian dynamics is on arXiv.</li>
+                <li><span class="date">01/2026</span> Our preprint <a href="https://arxiv.org/abs/2601.21234" target="_blank" rel="noopener">PHDME</a> on physics-informed diffusion models is on arXiv.</li>
+                <li><span class="date">09/2025</span> <a href="https://arxiv.org/abs/2309.10092" target="_blank" rel="noopener">Conformal Temporal Logic Planning using LLMs</a> was accepted to <strong>ACM TCPS</strong>.</li>
+                <li><span class="date">05/2025</span> I presented PnP-PIML at <strong>ICRA 2025</strong> in Atlanta.</li>
+                <li><span class="date">02/2025</span> Two papers, NAPI-MPC and Mission-driven Exploration, were accepted to <strong>L4DC 2025</strong>.</li>
+                <li><span class="date">01/2025</span> PnP-PIML was accepted to <strong>ICRA 2025</strong>.</li>
+                <li><span class="date">07/2024</span> I gave two talks at the <a href="https://www.wccm2024.org" target="_blank" rel="noopener">16th World Congress on Computational Mechanics</a> in Vancouver.</li>
+                <li><span class="date">07/2024</span> We presented our work on physics-constrained learning of PDE systems at <strong>L4DC 2024</strong> in Oxford.</li>
+                <li><span class="date">06/2024</span> We presented PyGpPHs at the 8th IFAC <strong>LHMNC</strong> workshop in Besançon.</li>
+                <li><span class="date">12/2023</span> I started my Ph.D. with Prof. Beckers at Vanderbilt University.</li>
+                <li><span class="date">03/2023</span> Our paper on targeted adversarial attacks against trajectory predictors was accepted to <strong>L4DC 2023</strong>.</li>
+            </ul>
+        </section>
 
+        <!--
+            Publication teasers: each <img> points to Videos/Publication/<name>.gif.
+            If the file is missing, the blue "GIF coming soon" placeholder is shown instead,
+            so adding a GIF with the listed file name is all that is needed.
+        -->
+        <section id="publications">
+            <h2>Publications</h2>
 
+            <div class="pub-group">
+                <h3>Physical AI &amp; Generative Models</h3>
+
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/PHDME.gif" alt="PHDME" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">PHDME<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://arxiv.org/abs/2601.21234" target="_blank" rel="noopener">PHDME: Physics-Informed Diffusion Models without Explicit Governing Equations</a></div>
+                        <div class="pub-authors"><span class="me">Kaiyuan Tan</span>, Kendra Givens, Peilun Li, Thomas Beckers</div>
+                        <div class="pub-venue preprint">Preprint, under review at <strong>TMLR</strong>, 2026</div>
+                        <div class="pub-links"><a href="https://arxiv.org/abs/2601.21234" target="_blank" rel="noopener">arXiv</a></div>
+                    </div>
+                </div>
+
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/CIPHER.gif" alt="CIPHER" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">CIPHER<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://arxiv.org/abs/2605.16682" target="_blank" rel="noopener">Identify then Realize: Contrastive Learning of Latent Port-Hamiltonian Dynamics from Partial Observations</a></div>
+                        <div class="pub-authors">Peilun Li, <span class="me">Kaiyuan Tan</span>, Daniel Moyer, Thomas Beckers</div>
+                        <div class="pub-venue preprint">Preprint, under review at <strong>ICLR 2027</strong></div>
+                        <div class="pub-links"><a href="https://arxiv.org/abs/2605.16682" target="_blank" rel="noopener">arXiv</a></div>
+                    </div>
+                </div>
+
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/napi_mpc_robot_inspection.gif" alt="NAPI-MPC" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">NAPI-MPC<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://proceedings.mlr.press/v283/li25d.html" target="_blank" rel="noopener">NAPI-MPC: Neural Accelerated Physics-Informed MPC for Nonlinear PDE Systems</a></div>
+                        <div class="pub-authors">Peilun Li, <span class="me">Kaiyuan Tan</span>, Thomas Beckers</div>
+                        <div class="pub-venue">Learning for Dynamics and Control Conference <strong>(L4DC 2025)</strong></div>
+                        <div class="pub-links">
+                            <a href="https://proceedings.mlr.press/v283/li25d.html" target="_blank" rel="noopener">Paper</a>
+                            <a href="PDF_files/NAPI_MPC.pdf" target="_blank">PDF</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!--             .read-more-->
-            <span class="badge" id="badge-more">more</span>
-            <!-- ========= READ MORE SECTION ABOVE =====================  -->
 
+            <div class="pub-group">
+                <h3>Bayesian Methods &amp; Uncertainty Quantification</h3>
 
-            <h3 class="push-down-3"><span>Education</span></h3>
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/PnP-PIML.gif" alt="PnP-PIML" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">PnP-PIML<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://arxiv.org/abs/2504.17966" target="_blank" rel="noopener">Plug-and-Play Physics-Informed Learning Using Uncertainty Quantified Port-Hamiltonian Models</a></div>
+                        <div class="pub-authors"><span class="me">Kaiyuan Tan</span>, Peilun Li, Jun Wang, Thomas Beckers</div>
+                        <div class="pub-venue">IEEE International Conference on Robotics and Automation <strong>(ICRA 2025)</strong></div>
+                        <div class="pub-links">
+                            <a href="https://arxiv.org/abs/2504.17966" target="_blank" rel="noopener">arXiv</a>
+                            <a href="PDF_files/PNP_PIML.pdf" target="_blank">PDF</a>
+                            <a href="https://github.com/Beckers-Lab/PnP-PIML" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </div>
 
-            <ul id="education">
-                 <li>
-                    <strong>Ph.D. in Computer Science, Expected Dec 2027</strong><br>
-                    <span style="color: #CFAE70;"><em>Vanderbilt University</em></span>
-                </li>
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/gp-dphs-bayesian-wave.gif" alt="GP-dPHS" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">GP-dPHS<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://proceedings.mlr.press/v242/tan24a.html" target="_blank" rel="noopener">Physics-Constrained Learning of PDE Systems with Uncertainty Quantified Port-Hamiltonian Models</a></div>
+                        <div class="pub-authors"><span class="me">Kaiyuan Tan</span>, Peilun Li, Thomas Beckers</div>
+                        <div class="pub-venue">Learning for Dynamics and Control Conference <strong>(L4DC 2024)</strong></div>
+                        <div class="pub-links">
+                            <a href="https://proceedings.mlr.press/v242/tan24a.html" target="_blank" rel="noopener">Paper</a>
+                            <a href="https://arxiv.org/abs/2406.11809" target="_blank" rel="noopener">arXiv</a>
+                            <a href="PDF_files/GP-dPHS_finale.pdf" target="_blank">Slides</a>
+                        </div>
+                    </div>
+                </div>
 
-                <li>
-                    <strong>M.S. in Electrical Engineering, 2023</strong><br>
-                    <span style="color: #a51417;"><em>Washington University in St. Louis</em></span>
-                </li>
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/PyGpPHs.gif" alt="PyGpPHs" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">PyGpPHs<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://www.sciencedirect.com/science/article/pii/S2405896324009984" target="_blank" rel="noopener">PyGpPHs: A Python Package for Bayesian Modeling of Port-Hamiltonian Systems</a></div>
+                        <div class="pub-authors">Peilun Li, <span class="me">Kaiyuan Tan</span>, Thomas Beckers</div>
+                        <div class="pub-venue">IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control <strong>(LHMNC 2024)</strong></div>
+                        <div class="pub-links">
+                            <a href="https://www.sciencedirect.com/science/article/pii/S2405896324009984" target="_blank" rel="noopener">Paper</a>
+                            <a href="PDF_files/PyGpPhs.pdf" target="_blank">PDF</a>
+                            <a href="https://github.com/Beckers-Lab/PyGpPhs" target="_blank" rel="noopener">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                <li>
-                    <strong>B.Eng. in Information Engineering, 2021</strong><br>
-                    <span style="color: #00561F;"><em>Sun Yat-Sen University</em></span>
-                </li>
+            <div class="pub-group">
+                <h3>Robotics: Planning, Learning &amp; Safety</h3>
 
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/Conformal%20Temporal%20Logic%20Planning.gif" alt="Conformal temporal logic planning" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">HERACLEs<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://ltl-llm.github.io/" target="_blank" rel="noopener">Conformal Temporal Logic Planning using Large Language Models</a></div>
+                        <div class="pub-authors">Jun Wang, Jiaming Tong, <span class="me">Kaiyuan Tan</span>, Yevgeniy Vorobeychik, Yiannis Kantaros</div>
+                        <div class="pub-venue">ACM Transactions on Cyber-Physical Systems <strong>(TCPS 2025)</strong></div>
+                        <div class="pub-links">
+                            <a href="https://ltl-llm.github.io/" target="_blank" rel="noopener">Webpage</a>
+                            <a href="https://arxiv.org/abs/2309.10092" target="_blank" rel="noopener">arXiv</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/Accelerate%20RL.gif" alt="Mission-driven exploration" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">Mission-driven RL<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://proceedings.mlr.press/v283/wang25d.html" target="_blank" rel="noopener">Mission-driven Exploration for Accelerated Deep Reinforcement Learning with Temporal Logic Task Specifications</a></div>
+                        <div class="pub-authors">Jun Wang, Hosein Hasanbeig, <span class="me">Kaiyuan Tan</span>, Zihe Sun, Yiannis Kantaros</div>
+                        <div class="pub-venue">Learning for Dynamics and Control Conference <strong>(L4DC 2025)</strong></div>
+                        <div class="pub-links"><a href="https://proceedings.mlr.press/v283/wang25d.html" target="_blank" rel="noopener">Paper</a></div>
+                    </div>
+                </div>
+
+                <div class="pub">
+                    <div class="teaser">
+                        <img src="Videos/Publication/TA4TP.gif" alt="Targeted adversarial attacks" loading="lazy" onerror="this.parentNode.classList.add('missing');this.remove()">
+                        <div class="placeholder">TA4TP<small>GIF coming soon</small></div>
+                    </div>
+                    <div class="pub-body">
+                        <div class="pub-title"><a href="https://proceedings.mlr.press/v211/tan23a.html" target="_blank" rel="noopener">Targeted Adversarial Attacks against Neural Network Trajectory Predictors</a></div>
+                        <div class="pub-authors"><span class="me">Kaiyuan Tan</span>, Jun Wang, Yiannis Kantaros</div>
+                        <div class="pub-venue">Learning for Dynamics and Control Conference <strong>(L4DC 2023)</strong></div>
+                        <div class="pub-links">
+                            <a href="https://proceedings.mlr.press/v211/tan23a.html" target="_blank" rel="noopener">Paper</a>
+                            <a href="https://proceedings.mlr.press/v211/tan23a/tan23a.pdf" target="_blank" rel="noopener">PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <p>Teaching Assistant, Vanderbilt University:</p>
+            <ul>
+                <li>MATH 3630/5630: Mathematical Modeling in Biology and Medicine, Spring 2025</li>
+                <li>MATH 3620/5620: Introduction to Numerical Mathematics, Fall 2024</li>
+                <li>CS 4262/5262: Foundations of Machine Learning, Fall 2024</li>
+                <li>CS 3251/5251: Intermediate Software Design, Fall 2023 and Spring 2024</li>
+                <li>CS/DS 1100: Applied Programming and Problem Solving with Python, Fall 2022</li>
             </ul>
+        </section>
 
-        </div>
-    </div>
-
-    <!-- News Section -->
-    <div class="news-section-container">
-        <h3 class="push-down-1"><span> News</span></h3>
-        <div class="news-section">
-            <ul class="news-list">
-
-                <li class="news-item">
-                    <span class="news-date">09/2025</span>
-                    <span class="news-message">Our paper <a style="font-size: 14px"
-                        href="https://arxiv.org/pdf/2309.10092">"Conformal temporal logic planning using large language models: Knowing when to do what and when to ask for help "</a> was accepted at <strong>TCPS</strong>, ACM Transactions on Cyber-Physical Systems.
-                    </span>
-                </li>
-
-                <li class="news-item">
-                    <span class="news-date">02/2025</span>
-                    <span class="news-message">Our paper <a style="font-size: 14px"
-                        href="https://proceedings.mlr.press/v283/li25d.html">"NAPI-MPC: Neural Accelerated Physics-Informed MPC Control for Nonlinear PDEs Systems"</a> was accepted at <strong>L4DC</strong>, and will be presented at UMich in June 2025!
-                    </span>
-                </li>
-                
-                <li class="news-item">
-                    <span class="news-date">02/2025</span>
-                    <span class="news-message">Our paper <a style="font-size: 14px"
-                        href="https://proceedings.mlr.press/v283/wang25d.html">"Mission-driven Exploration for Accelerated Deep Reinforcement Learning with Temporal Logic Task Specifications"</a> was accepted at <strong>L4DC</strong>, and will be presented at UMich in June 2025!
-                    </span>
-                </li>
-
-                <li class="news-item">
-                    <span class="news-date">01/2025</span>
-                    <span class="news-message">Our paper <a style="font-size: 14px"
-                        href="https://arxiv.org/abs/2504.17966">"PnP-PIML: Physics-informed Learning of Outlier Dynamics using Uncertainty Quantified Port-Hamiltonian Models"</a> was accepted at <strong>ICRA</strong>, and will be presented in Atlanta in May 2025!
-                    </span>
-                </li>
-
-
-                <li class="news-item">
-                    <span class="news-date">07/2024</span>
-                    <span class="news-message">I presented our papers at the <a style="font-size: 14px"
-                                                                                       href="https://www.wccm2024.org">
-                        16th World Congress on Computational Mechanics (WCCM)</a>
-                        in Vancouver.</span>
-                </li>
-
-                <li class="news-item">
-                    <span class="news-date">07/2024</span>
-                    <span class="news-message">We presented our work on <a style="font-size: 14px"
-                                                                           href="https://proceedings.mlr.press/v242/tan24a.html">"Physics-informed learning of PDEs with uncertainty quantification"</a>
-                        at the <strong>L4DC</strong> in Oxford.</span>
-                </li>
-
-                <li class="news-item">
-                    <span class="news-date">06/2024</span>
-                    <span class="news-message">We presented our <a style="font-size: 14px"
-                                                                   href="https://www.sciencedirect.com/science/article/pii/S2405896324009984"> Python toolbox for Bayesian learning of Port-Hamiltonian systems</a> at the 8th IFAC Workshop on Lagrangian and Hamiltonian Methods for Non Linear Control
-                        in Besançon.</span>
-                </li>
-
-                <li class="news-item">
-                    <span class="news-date">03/2024</span>
-                    <span class="news-message">Our paper was accepted at the 8th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control.</span>
-                </li>
-
-                <li class="news-item">
-                    <span class="news-date">02/2024</span>
-                    <span class="news-message">Two of our abstract papers are approved at the <a style="font-size: 14px"
-                                                                                                 href="https://www.wccm2024.org">
-                        16th World Congress on Computational Mechanics (WCCM)</a>.</span>
-                </li>
-
-                <li class="news-item">
-                    <span class="news-date">12/2023</span>
-                    <span class="news-message">I'm happy to continue my Ph.D. journey with Prof. Beckers at Vanderbilt University.</span>
-                </li>
-
-                <li class="news-item">
-                    <span class="news-date">12/2023</span>
-                    <span class="news-message">Our paper <a style="font-size: 14px"
-                        href="https://arxiv.org/pdf/2309.10092">"Conformal temporal logic planning using large language models"</a> is available on arXiv!
-                    </span>
-                </li>
-
-
-                <li class="news-item">
-                    <span class="news-date">03/2023</span>
-                    <span class="news-message">Our paper <a style="font-size: 14px"
-                        href="https://proceedings.mlr.press/v211/tan23a/tan23a.pdf">"Targeted Adversarial Attacks against Neural Network Trajectory Predictors"</a> was accepted at <strong>L4DC</strong>, and will be presented at UPenn in June 2023!
-                    </span>
-                </li>
+        <section id="honors">
+            <h2>Honors &amp; Awards</h2>
+            <ul>
+                <li>Selected as one of 18 students for the inaugural Information Engineering Experimental Program, Sun Yat-sen University, 2019</li>
             </ul>
-        </div>
-    </div>
+        </section>
 
+        <!-- Visitor tracking (MapMyVisitors) -->
+        <div class="visitors">
+            <a href="https://mapmyvisitors.com/web/1bywt" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=BCJkDjXx4ahkzNkX0YWCgyf0rvLdE4GIvg_oIF_DIaE&cl=ffffff" alt="Visitor map"></a>
+        </div>
+        <p class="footer-note">&copy; 2026 Kaiyuan Tan</p>
+    </main>
 </div>
-
-
-<!-- Back-to-top button -->
-<a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link"
-   href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
-
-
-<!-- footer include -->
-<div w3-include-html="footer.html"></div>
-
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Bootstrap JS Library -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-        crossorigin="anonymous"></script>
-
-<!-- html file include script | used for navbar and footer -->
-<script src="js/w3data.js"></script>
-<script>
-      w3IncludeHTML()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
-<!-- Local scripts -->
-<script src="js/main.js"></script>
-
-<script>
-    $(document).ready(function () {
-        // Load navbar.html content into #navbar-include div
-        $("#navbar-include").load("navbar.html", function () {
-            console.log("Navbar loaded.");
-
-            // Event delegation for toggle button click
-            $(document).on('click', '.navbar-toggle', function () {
-                var target = $(this).data('target');
-                $(target).collapse('toggle');
-            });
-        });
-    });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-<footer style="text-align:center">
-    <a href="https://mapmyvisitors.com/web/1bywt"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=BCJkDjXx4ahkzNkX0YWCgyf0rvLdE4GIvg_oIF_DIaE&cl=ffffff" /></a>
-    <br>
-</footer>
 </body>
 
 </html>
-
