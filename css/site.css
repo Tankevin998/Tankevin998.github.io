@@ -71,7 +71,7 @@ p, ul, ol { margin: 0 0 18px; }
 /* ---------- Layout ---------- */
 
 .wrapper {
-    width: 1140px;
+    width: 1260px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -84,8 +84,8 @@ p, ul, ol { margin: 0 0 18px; }
 }
 
 .content {
-    width: 820px;
-    margin-left: 290px;
+    width: 940px;
+    margin-left: 300px;
     padding: 56px 0 60px;
 }
 
@@ -171,7 +171,7 @@ p, ul, ol { margin: 0 0 18px; }
 }
 
 .teaser {
-    flex: 0 0 320px;
+    flex: 0 0 460px;
     aspect-ratio: 16 / 9;
     border-radius: 8px;
     overflow: hidden;
@@ -307,15 +307,20 @@ p, ul, ol { margin: 0 0 18px; }
 
 /* ---------- Narrow screens ---------- */
 
-@media (max-width: 1160px) {
+@media (max-width: 1300px) {
     .wrapper { width: auto; }
     .sidebar { position: static; width: auto; padding-top: 32px; }
     .content { width: auto; margin-left: 0; padding-top: 24px; border-top: 1px solid var(--rule); margin-top: 20px; }
 }
 
+@media (max-width: 860px) {
+    .pub { flex-direction: column; align-items: stretch; gap: 12px; margin-bottom: 34px; }
+    .teaser { flex-basis: auto; width: 100%; }
+}
+
 @media (max-width: 640px) {
-    .pub { flex-direction: column; align-items: stretch; }
-    .teaser { flex-basis: auto; }
+    body { font-size: 16px; }
+    .pub-links a { padding: 3px 10px; }
     .timeline:before, .tl-dot { display: none; }
     .tl-logo { position: static; transform: none; width: 64px; margin-bottom: 8px; }
     .tl-content { margin-left: 0; }
